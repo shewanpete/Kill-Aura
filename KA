@@ -1,11 +1,5 @@
 while true do 
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-41, 38, -232)
-local humanoid = game.Players.LocalPlayer.Character.Humanoid
-humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-wait(.1)
-pl.CFrame = location
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-41, 38, -258)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
